@@ -16,7 +16,6 @@ import { Navigation, Autoplay, Pagination } from "swiper/modules";
 
 import { Bebas_Neue } from "next/font/google";
 import { FaEnvelopeOpen, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
-import { IoHomeOutline } from "react-icons/io5";
 const bebasNeue = Bebas_Neue({ subsets: ["latin"], weight: ["400"] });
 
 const slides = [

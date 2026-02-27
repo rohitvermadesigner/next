@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import Slider from "@/components/Slider/Slider";
 import AboutSection from "@/components/AboutSection/AboutSection";
 // import Blog from "@/components/Blog/Blog";

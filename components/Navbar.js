@@ -17,9 +17,9 @@ export default function Navbar() {
 
  <nav className="col-md-10 col-sm-10 col-xs-10 position-static">
           <ul>
-            <li><Link href="<?php echo site_url(); ?>">Home</Link></li>
+            <li><Link href="/">Home</Link></li>
 
-            <li className="position-static"><Link href="<?php echo site_url(); ?>/about-us/">About Us</Link> <span
+            <li className="position-static"><Link href="about">About Us</Link> <span
                 className="submenu-icon1"><i className="fa fa-chevron-down"></i></span>
               <div className="bigSubmenu">
                 <ul className="">

@@ -1,9 +1,14 @@
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
-    domains: ["www.excellenceauditing.com"], // match the exact hostname
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.excellenceauditing.com",
+      },
+    ],
   },
-}
+};
 
 export default nextConfig;
